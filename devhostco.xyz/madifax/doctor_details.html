@@ -19,7 +19,7 @@
 
 
 <body>
-    <!--============================
+ <!--============================
         TOPBAR START
     ==============================-->
     <section class="topbar" style="direction: rtl;">
@@ -28,10 +28,10 @@
                 <div class="col-xl-9 col-lg-9 d-none d-md-block">
                     <ul class="topbar_link d-flex flex-wrap">
                         <li><a href="callto:123456789"
-                            ><i class="fas fa-phone-alt"></i> (۷۰۰) ۲۳۰-۰۰۳۵ ۲۱+</a></li>
+                            ><i class="fas fa-phone-alt"></i> 09156308230</a></li>
                         <li><a href="mailto:example@gmail.com"><i class="fas fa-envelope"></i>support@gmail.com</a></li>
                         <li>
-                            <p><i class="fas fa-map-marker-alt"></i>شیراز. خیابان نیایش. ساختمان پزشکان</p>
+                            <p><i class="fas fa-map-marker-alt"></i>زاهدان. خیابان دانشگاه. پارک علم و فناوری</p>
                         </li>
                     </ul>
                 </div>
@@ -49,6 +49,8 @@
     <!--============================
         TOPBAR END
     ==============================-->
+
+
     <!--============================
         MAIN MANU START
     ==============================-->
@@ -62,22 +64,27 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">خانه <i class="far fa-plus"></i></a>
+                        <a class="nav-link active" href="#">خانه <i class="far fa-plus"></i></a>
+                        <ul class="dropdown">
+                            <li><a class="active" href="index.html">خانه ۰۱</a></li>
+                            <li><a href="index_2.html">خانه ۰۲</a></li>
+                            <li><a href="index_3.html">خانه ۰۳</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a  class="nav-link" href="about.html">درباره ما</a>
+                        <a class="nav-link" href="about.html">درباره ما</a>
                     </li>
                     <li class="nav-item">
-                        <a  class="nav-link" href="service.html">خدمات</a>
+                        <a class="nav-link" href="service.html">خدمات</a>
                     </li>
                     <li class="nav-item">
-                        <a  class="nav-link" href="#">صفحات <i class="far fa-plus"></i></a>
+                        <a class="nav-link" href="#">صفحات <i class="far fa-plus"></i></a>
                         <ul class="dropdown">
                             <li><a href="become_doctor.html">دکتر شوید</a></li>
-                            <li><a  href="blog_details.html">جزئیات وبلاگ</a></li>
-                            <li><a  href="service_details.html">جزئیات خدمات</a></li>
+                            <li><a href="blog_details.html">جزئیات وبلاگ</a></li>
+                            <li><a href="service_details.html">جزئیات خدمات</a></li>
                             <li><a href="doctor.html">دکتر</a></li>
-                            <li><a class="active" href="doctor_details.html">جزئیات دکتر</a></li>
+                            <li><a href="doctor_details.html">جزئیات دکتر</a></li>
                             <li><a href="gallary.html">گالری</a></li>
                             <li><a href="pricing.html">خرید پلن</a></li>
                             <li><a href="payment.html">پرداخت</a></li>
@@ -100,11 +107,12 @@
                 </ul>
                 <ul class="menu_btn d-flex flex-wrap align-items-center">
                     <li><a href="#" class="menu_search_icon"><i class="fal fa-search"></i></a></li>
-                    <li><a href="appointment.html" class="common_btn"> نوبت مشاوره</a></li>
+                    <li><a href="appointment.html" class="common_btn"> ورود و ثبت نام</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+
     <div class="menu_search">
         <form>
             <input type="text" placeholder="کلمه مورد نظر را وارد نمایید">
@@ -343,29 +351,14 @@
         TEAM DETAILS END
     ==============================-->
 
-
-    <!--============================
+   <!--============================
         FOOTER START
     ==============================-->
-    <footer class="mt_60" style="background: url(images/footer_bg.jpg);direction: rtl;" >
+    <footer class="mt_60" style="background-color: var(--colorPrimary); direction: rtl;" >
         <div class="container">
             <div class="row">
                 <div class="col-xl-12 wow fadeInUp" data-wow-duration="1s">
-                    <div class="subscription">
-                        <div class="row justify-content-between align-items-center">
-                            <div class="col-xxl-6 col-lg-6 col-xl-7">
-                                <div class="subscribe_text">
-                                    <h2>برای به روز رسانی های انحصاری مشترک شوید!</h2>
-                                </div>
-                            </div>
-                            <div class="col-xxl-5 col-lg-6 col-xl-5">
-                                <form action="#" class="subscrib_form">
-                                    <input type="text" placeholder="ایمیل آدرس را وارد نمایید">
-                                    <button class="common_btn subscrib_btn">عضویت</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
 
@@ -373,7 +366,7 @@
                 <div class="col-lg-3 col-sm-9 col-md-6">
                     <div class="footer_left">
                         <a href="index.html" class="tf_footer_logo">
-                            <img src="images/footer_logo.png" alt="MediFax" class="img-fluid w-100">
+                            <img src="images/InShot_20240427_134010796.png" alt="MediFax" class="img-fluid w-100">
                         </a>
                         <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
                         <div class="footer_mail">
@@ -407,8 +400,7 @@
                     <div class="quick_link">
                         <h5>لینک های مهم</h5>
                         <ul>
-                            <li><a href="#">پردازش ما</a></li>
-                            <li><a href="#">نوبت دهی</a></li>
+                            
                             <li><a href="faq.html">سوالات متداول</a></li>
                             <li><a href="privacy.html">سیاست حفظ حریم خصوصی</a></li>
                             <li><a href="terms_condition.html">شرایط و قوانین</a></li>
@@ -419,11 +411,10 @@
                     <div class="quick_link">
                         <h5>دسترسی سریع</h5>
                         <ul>
-                            <li><a href="#">چرا ما ؟</a></li>
                             <li><a href="priceing.html">قیمت گذاری</a></li>
                             <li><a href="blog.html">اخبار و مقالات</a></li>
                             <li><a href="sing_up.html">ورود</a></li>
-                            <li><a href="#">عضویت</a></li>
+                           
                         </ul>
                     </div>
                 </div>
@@ -433,7 +424,7 @@
                         <div class="tf_footer_address">
                             <p>
                                 <i class="fas fa-map-marker-alt"></i>
-                                شیراز. خیابان نیایش. ساختمان پزشکان
+                                زاهدان. خیابان دانشگاه.  پارک علم و فناوری
                             </p>
                             <a href="#">
                                 <i class="fas fa-envelope"></i>
@@ -451,10 +442,9 @@
             <div class="row mt_70 xs_mt_45 sm_margin ">
                 <div class="col-xl-12">
                     <div class="copyright d-flex flex-wrap justify-content-between">
-                        <p>همه حقوق متعلق به محسن دادار می باشد - زمستان ۱۴۰۲</p>
+                        <p>   تمامی حقوق این وبسایت به مجموعه اتاق مشاوره متعلق است - 2024 ©</p>
                         <ul class="d-flex flex-wrap">
                             <li><a href="terms_condition.html">شرایط و ضوابط</a></li>
-                            <li><a href="#">کوکی</a></li>
                             <li><a href="privacy.html">سیاست حفظ حریم خصوصی</a></li>
                         </ul>
                     </div>
@@ -466,6 +456,19 @@
     <!--============================
         FOOTER END
     ==============================-->
+
+
+    <!--=========================
+        SCROLL BUTTON START
+    ===========================-->
+    <div class="scroll_btn">
+        <span><i class="fas fa-arrow-alt-up"></i></span>
+    </div>
+    <!--==========================
+        SCROLL BUTTON END
+    ===========================-->
+
+
 
 
     <!--=========================

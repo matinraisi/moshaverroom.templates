@@ -264,7 +264,7 @@ z-index: 1;
 }
 
 .common_btn:hover {
-  background: var(--colorPrimary);
+  background: var(--colorSecondary);
   padding: 12px 55px 12px 25px;
   color: var(--colorWhite);
 }
@@ -322,7 +322,7 @@ z-index: 1;
 }
 
 .breadcrumb {
-  background: url(../images/breadcrumb_bg.jpg);
+  background: url(../images/banner.webp);
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -4475,7 +4475,7 @@ text-align: right;
   SIGN UP START
 =============================*/
 .sign_up_form {
-  background: var(--gradiantBg);
+  background:rgb(232, 245, 255);
   padding: 65px 40px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -5866,7 +5866,7 @@ text-align: right;
 }
 
 .team_details_form {
-  background: var(--colorSecondary);
+  background: var(--colorPrimary);
   border-radius: 10px;
   padding: 35px 25px;
   margin-bottom: 30px;
