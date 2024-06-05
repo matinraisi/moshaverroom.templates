@@ -6976,9 +6976,25 @@ ul li:hover .dropOut { opacity: 1; margin-top: 20px; }
   text-transform: capitalize;
   margin-bottom: 5px;
 }
+.dashboard_profile_form label span{
+  color: red;
+}
 
-.dashboard_profile_form input {
+.dashboard_profile_form input{
   margin-bottom: 25px;
+  background-color: #00a6fb0d;
+}
+.dashboard_profile_form select{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    resize: none;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #5e5b5b17;
+    border-radius: 30px;
+    text-align: right;
+    background-color: #00a6fb0d;
 }
 
 .message_list {
@@ -7289,6 +7305,8 @@ ul li:hover .dropOut { opacity: 1; margin-top: 20px; }
 
 .dashboard_profile {
   position: relative;
+  
+  padding: 20px;
 }
 
 .dashboard_profile a {
