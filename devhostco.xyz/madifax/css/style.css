@@ -213,7 +213,7 @@ button:focus {
 }
 
 .common_btn {
-  background: var(--colorSecondary);
+  background: var(--colorPrimary);
   text-transform: capitalize;
   color: var(--colorWhite);
   padding: 12px 40px 12px 40px;
@@ -3584,6 +3584,90 @@ text-align: right;
 
 /* main manu end */
 
+.drop {
+	position: relative;
+	font-size: 1em;
+	cursor: pointer;
+  background-color: rgb(244, 250, 255);
+}
+.drop a{
+  font-weight: 400;
+  line-height: 2.5em;
+  padding: 0 1em;
+  color: lighten(black,30%);
+  text-decoration:none;
+}
+ .user-avatar{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+ }
+.dropdownContain {
+	width: 13em;
+	position: absolute;
+	z-index: 2;
+	left: 50%;
+	margin-left: -6.5em; /* half of width */
+	top: -300px;
+	
+}
+.dropOut {
+	width: 13em;
+	background-color: rgb(244, 250, 255);
+	float: left;
+	position: relative;
+	margin-top: 0;
+	opacity: 0;
+   border-radius:.4em, .4em;
+	box-shadow: 0 0 4px rgba(0,0,0,.15);
+  border:1px solid rgba(white, .75) ;
+  overflow:hidden;
+	
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+
+ ul {
+	padding: .3em 0;
+	margin:0
+ }
+
+
+}
+
+
+
+.dropOut li {
+	text-align: left;
+	width: 100%;
+	padding: .6em 0 ;
+	color: darken(#fff, 50%);
+	border-left:3px solid #f7f7f7;
+
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;	
+	span{
+	 color: darken(#fff, 20%);
+	 margin: 0 1.5em 0 .8em;
+
+	}
+	
+}
+
+ul li:hover .triangle { opacity: 1 }
+ul li:hover .dropdownContain { top: 30px; }
+ul li:hover .dropOut { opacity: 1; margin-top: 20px; }
+
+.dropOut ul li:hover{
+  color: var(--colorSecondary);
+}
+
+
 /* banner start */
 .banner_3 {
   position: relative;
@@ -4580,12 +4664,12 @@ text-align: right;
 }
 
 .sign_option li {
-  width: 30%;
+  width: 0%;
 }
 
 .sign_option li a {
   display: block;
-  width: 100%;
+  width:  100%;
   height: 50px;
   border-radius: 10px;
   overflow: hidden;

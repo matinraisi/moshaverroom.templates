@@ -2792,3 +2792,10 @@
     }
 
 }
+@media (max-width: 767px) {
+    .input-top {
+      flex-direction: column;
+    }
+  }
+
+  
